@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Etch-a-Sketch, An Odin project">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <h1>Etch-a-sketch</h1>
+    <button id="change-size-button">Change Size (<span id="pad-size"></span>)</button>
+    <button id="clear-button">Clear</button>
+    <div style="padding: 10px;">
+        <label for="black">
+            <input type="radio"  id="black" name="color-mode" value="black" checked>Black
+        </label>
+        <label for="random">
+            <input type="radio"  id="random"  name="color-mode" value="random">Random Color
+        </label>
+        <label for="erase">
+            <input type="radio"  id="erase"  name="color-mode" value="erase">Eraser
+        </label>
+        <label for="opacity-check"><input type="checkbox" id="opacity-check"> Opacity:</label>
+    </div>
+    <div id="pad-container">
+        <script src="main.js"></script>
+        <script src="https://kit.fontawesome.com/5ba4d03fd6.js" crossorigin="anonymous"></script>
+</body>
+</html>

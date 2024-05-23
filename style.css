@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap');/*B612*/
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap'); /*Luckiest Guy*/
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Permanent+Marker&display=swap');
+
+body {
+    margin: 0 auto;
+    text-align: center;
+
+    background-image: url(backgound.svg);
+}
+#container {
+    display: inline-block;
+    text-align: left;
+    font-family: "Permanent Marker", cursive;
+}
+
+#pad-container {
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 5px #d8bd53;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button,
+#select-color-mode {
+    font-size: 1em;
+}
+
+input[type="checkbox"] {
+    margin-left: 90px;
+}
+
+button {
+    background-color: #e6dcb3;
+    border-color: lightgray;
+    color: #070707;
+    font-family: "Permanent Marker", cursive;
+    margin-right: 20px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.row {
+    display:flex;
+}
+.square {
+    flex: 1 1 auto;
+    border: 1px dotted rgba(236, 232, 227, 0.3);
+    aspect-ratio: 1 / 1;
+}
+.square:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 18px 12px gold;
+    border-radius: 44px;
+
+}
+
+#message-area {
+    max-width: 700px;
+    background-color: darkkhaki;
+}
